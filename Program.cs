@@ -1,0 +1,29 @@
+﻿using System;
+
+
+namespace FirstProj
+{
+    class Program
+    {
+        static int numA = 99;
+        string chA = "abcde";
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello hyeonjin!");
+             //for (int i = 0; i < 10; i++)
+             // Console.WriteLine(numA + i);
+             // Console.WriteLine(numA);
+
+             // }
+             Program proA = new Program();
+             proA.doThat();
+        }
+        void doThat()
+       {
+        Console.WriteLine(chA);
+
+     }   
+
+
+     }
+        }
